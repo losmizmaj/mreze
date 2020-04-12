@@ -28,7 +28,7 @@ def index(request):
     context = {
         'latest_question_list': latest_question_list,
     }
-    return HttpResponse(template.render(context, request))django-admin startproject mysite
+    return HttpResponse(template.render(context, request))
 
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
