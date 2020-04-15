@@ -9,6 +9,7 @@ ipython = "*"
 
 [packages]
 django = "~=2.2.0"
+pylint = "*"
 
 [requires]
 python_version = "3"
