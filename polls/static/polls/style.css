@@ -1,0 +1,9 @@
+li a {
+    color: green;
+}
+
+body {
+    background: greenyellow url("https://www.popwebdesign.net/popart_blog/wp-content/uploads/2019/05/slike-prirode-za-desktop-757.jpg") no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
